@@ -3,12 +3,12 @@ console.log('Is this working?');
 let viz;
 
 //Add Share Link to Tableau Public in here
-const url = "https://public.tableau.com/shared/MZCT2SP3M?:display_count=n&:origin=viz_share_link";
+const url = "https://public.tableau.com/shared/PCNHQHDYS?:display_count=n&:origin=viz_share_link";
 const vizContainer = document.getElementById('vizContainer');
 const options = {
-    hideTabs: true,
-    height: 1000,
-    width: 1200,
+    hideTabs: false,
+    // height: 1000,
+    // width: 1200,
     onFirstInteraction: function() {
         workbook = viz.getWorkbook();
         activeSheet = workbook.getActiveSheet();
